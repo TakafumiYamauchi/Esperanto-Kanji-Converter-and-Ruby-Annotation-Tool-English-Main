@@ -1,0 +1,12 @@
+[
+    [
+      "【Explanation of User-Defined Replacement Strings (Kanji)】",
+      "Similar to the previously mentioned JSON (User-Defined Esperanto Word-Stemming Rules), the first three elements (word segmentation, priority, and suffixes) follow exactly the same specification method.",
+      "In this JSON, the fourth element of each line defines your own user-specific replacement string.",
+      "However, the number of segments separated by ‘❛/❜’ in the original word must match the number of segments separated by ‘❛/❜’ in the replacement string.",
+      "If the number of segments does not match, note that the definition on that line will not be correctly loaded into the replacement list."
+    ],
+["abb/re/vi/a/ti/on/", "dflt", ["verbo_s1","verbo_s2","o","a","e"], "あぶ/り/び/えい/し/おん"],
+["/ad/van/ta/ge/ou/s/", "dflt", ["ne", "verbo_s1", "verbo_s2"],"/あど/ばん/てい/じ/あう/す"],
+["a/pp/re/he/n/si/ve", 113000, ["o","a","ppp"],"ア/プ/リ/ヘ/ン/シ/ブ/"]
+]
